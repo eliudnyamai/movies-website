@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+#welcome{
+    display: grid;
+    background-image: url(../img/welcome-img.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: 3fr 1fr;
+}
+
+#welcome-text{
+    color: white;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-weight: 800;
+    z-index: 2;
+}
+small{
+    font-size: 22px;
+}
+
+#announcements{
+    background-color: #D2DCDD;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 50px;
+    text-align: center;
+}
+
+.big-text{
+    font-size: 30px;
+    color: blue;
+}
+.tablink {
+    background-color: #73519E;
+    color: black;
+    font-weight: bold;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+
+  .tablink:hover {
+    background-color: #D2DCDD;
+    color: black;
+  }
+  .tablink:active {
+    background-color: #D2DCDD;
+    color: black;
+  }
+
+  /* Set default styles for tab content */
+.tabcontent {
+    color: black;
+    padding: 50px;
+    
+  }
+  
+  /* Style each tab content individually */
+  #aug5 {background-color:white;}
+  #aug6 {background-color:white;}
+  #aug7 {background-color:white;}
+  #aug8 {background-color:white;}
+
+  .movie-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 1%;
+      margin-left: 5%;
+  }
+
+  .movie-img{
+    height: 400px;
+    width: auto;
+  }
+
+  #registration{
+   
+    background-image: url(../img/registration-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    opacity: 0.8;
+  }
+  #registration-banner{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient( to right, #5E4FAD,#8A548F);
+  }
+  #registration-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    font-size: 24px;
+    padding: 2%;
+  }
+  #registration-form input[type=text]{
+    width: 90%;
+    height: 40px;
+    border: none;
+    font-size: 24px;
+    color: #73519E;
+  }
+
+  #registration-form input[type=submit]{
+    width: 90%;
+    height: 40px;
+    border:none;
+    background-image: linear-gradient( to right, #5E4FAD,#8A548F);
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+  #news{
+    padding: 2%;
+    background-color: #D2DCDD;
+  }
+
+  #news-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #5E4FAD;
+   
+  }
+
+  #footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    padding: 2%;
+  }
+   .footer-div{
+     width: 80%;
+   }
+  .footer-div a{
+    color: white;
+    text-decoration: none;
+  }
+  .footer-div a:hover{
+    color: #5E4FAD;
+    text-decoration: underline;
+  }
+
+  .social-icon{
+    font-size: 28px;
+    padding-right: 5px;
+    padding-top: 5px;
+  }
+
+  .social-icon:hover{
+    color: #5E4FAD;
+  }
+ 

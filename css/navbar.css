@@ -1,0 +1,51 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
+    background-color: #F5F5F5;
+    height: 80px;
+
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item{
+     text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 7%;
+}
+#register{
+background-image: linear-gradient( to right, #5E4FAD,#8A548F);
+ /* add slanting behaviour */
+ transform: skew(-25deg);
+ 
+ margin-right: -25px;
+}
+
+#reg-btn{
+    /* contributes to slanting behaviour */
+    
+    transform: skew(25deg);
+    min-width: 30%;
+    height:28px;
+    border-radius: 45%;
+    font-size: 20px;
+    color: #8A548F;
+    border: 0;
+    }
+
+    #register:hover{
+        border-bottom: 5px solid white;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 3;
+      }
+      .header .icon {
+        display: none;
+      }

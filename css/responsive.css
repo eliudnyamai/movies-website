@@ -1,0 +1,109 @@
+@media (min-width: 300px) and (max-width: 767px) {
+
+    .header .icon {
+       right:0;
+       top: 0;
+      position: absolute;
+      display: block;
+      font-size: 40px;
+      color: white;
+      padding: 2px;
+   
+    }
+
+    .header {
+       display: grid;
+       grid-template-columns: 0px 0px 0px 0px 1fr;
+    }
+    .header #register{
+        transform: skew(0deg); 
+         margin-right: 1px;  
+    }
+
+    .header #reg-btn{
+        transform: skew(0deg);
+    }
+    .header.responsive {
+        display: grid;
+        grid-auto-flow: row dense;
+        grid-template-rows: 80px 80px 80px 80px 80px ;
+        grid-template-columns: 1fr;
+        background-color: #F5F5F5;
+        height: auto;
+    
+    }
+    #register .responsive{grid-column: 1;} 
+    .header.responsive .icon {
+      color: black;
+   
+    }
+    header.responsive  div {
+        float: none;
+      display:block;
+      color: black; 
+    }
+    #welcome{
+        grid-template-columns: 0.8fr;
+    }
+
+    #welcome-text{
+        color: white;
+        font-size:30px;
+        margin-top: 5%;
+        margin-left: 0%; 
+      
+    }
+
+    #announcements{
+        background-color: #D2DCDD;
+        padding: 5%;
+        display: grid;
+        grid-template-rows: 100px 100px 100px 100px 100px 100px;
+        grid-template-columns: 1fr;
+        height: auto;
+        text-align: center;
+    }
+    .movie-container{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        padding: 1%;
+        margin-left: 5%;
+    }
+    #registration-form{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+
+      }
+      #registration{
+   
+        background-image: url(../img/registration-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        opacity: 0.8;
+      }
+      #news-container{
+       
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 20px;
+        text-align: center;
+       
+      }
+      #footer{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-row-gap:20px ;
+        text-align: center;
+        
+  }
+  .movie-img{
+    height: 400px;
+    width: 100%;
+  }
+  .movie-container{
+    margin-left: -35px;
+   
+}
+}
