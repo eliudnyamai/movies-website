@@ -28,7 +28,7 @@ function showMovies(date, elmnt, color) {
 window.onscroll = function() {myFunction()};
 
 // Get the header
-var header = document.getElementById("header");
+var header = document.getElementById("nav");
 
 // Get the offset position of the navbar
 var sticky = header.offsetTop;
