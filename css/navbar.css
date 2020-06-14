@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
     background-color: #F5F5F5;
-    height: 80px;
+    height: 85px;
 
 }
 .nav-item a{

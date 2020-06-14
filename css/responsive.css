@@ -107,3 +107,25 @@
    
 }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    position: relative
+  }
+  .movie-img{
+    height: 400px;
+    width: 99%;
+  }
+  .movie-container{
+    margin-left: -30px; 
+}
+.header {
+ height: 100px;
+}
+#announcements{
+  height: 100px;
+}
+#reg-btn{
+  margin-top: 7%;
+}
+  
+}
